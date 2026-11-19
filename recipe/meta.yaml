@@ -1,4 +1,4 @@
-{% set version = "2.1.1" %}
+{% set version = "2.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/wrMisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/wrMisc/wrMisc_{{ version }}.tar.gz
-  sha256: 0879ba0d9d8cb6bb594f28a9d99dd382b1b583cc3dacfc87acf89179095dde8f
+  sha256: 577bf7742bc9c4e4092d80d6a6a43b503c6e6d31a391b8bb11c2a7bb6e77a9a5
 
 build:
   number: 0
